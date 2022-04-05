@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Landing Page - CEAP</title>
+</head>
+
+<body>
+    <div class="divImagemFundo">
+        <!-- OBSERVAÇÃO: A imagem utilizada ao fundo tem alunos reais do CEAP e foi retirada da página do CEAP no facebook  -->
+        <!-- Contraste: o logo e o texto incial não foram colocado diretamente acima da imagem, foi utiliada uma 
+            caixa branca semitransparente para melhorar o contraste entre o texto e o fundo #paratodosverem-->
+        <div class="blocoTextoTrasnparente">
+            <div class="flexbox">
+                <!-- Descrição da Imagem: descrição no atributo "ALT" #paratodosverem -->
+                <img src="./img/logo_ceap.png" class="logoCEAP"
+                    alt="Logo da instituição CEAP, composto por quatro circulos que representam rostos com olhos, seguidos da sigla 'CEAP'">
+                <!-- Tipografia: o espaçamento entre linha de todos os textos em tag "p" foi aumentado para 30px 
+                        com o atributo "line-height", para facilitar a leitura #paratodosverem -->
+                <p>Ajude a formar jovens comprometidos com o futuro. Já são milhares de famílias impactadas por essa
+                    ação. Seja um doador ou voluntário e nos ajude a continuar.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="divisaoPage">
+    <!-- Microcopy: textos curtos e diretos com ícones minimalistas, usados para apresentar argumentos que ajudem na 
+    conversão do usuário #uxwriting -->
+    <div class="flexbox">
+        <div class="grupoTextos">
+            <div class="textos fundoAzul">
+                <i class="fas fa-heart icone"></i>
+                <p>Faça parte dessa rede solidária</p>
+                <p>Contamos com parceiros como Samsung, Itaú, Bradesco, IBM, Intel, Porto Seguro, Bayer, dentre muitos
+                    outros.</p>
+            </div>
+            <div class="textos fundoLaranja">
+                <i class="fas fa-graduation-cap icone"></i>
+                <p>Educação que transforma</p>
+                <p>92% dos alunos do CEAP ingressam no Ensino Superior.</p>
+            </div>
+            <div class="textos fundoVerde">
+                <i class="fas fa-briefcase icone"></i>
+                <p>Emprego e oportunidades</p>
+                <p>70% dos jovens formados no CEAP já ingressam no mercado de trabalho em até 3 meses.</p>
+            </div>
+            <div class="textos fundoAzulClaro">
+                <i class="fas fa-users icone"></i>
+                <p>Impacto na família e na comunidade</p>
+                <p>Jovens formados no CEAP, entre 18 e 24 anos, têm salário 62% maior
+                    que a média da mesma faixa etária.</p>
+            </div>
+            <div class="textos fundoAzul">
+                <i class="fas fa-laptop-house icone"></i>
+                <p>Ajude sem sair de casa</p>
+                <p>Os alunos aprendem em encontros online com os tutores sobre a
+                    importância da família, dos valores éticos e são encorajados a pensar e refletir sobre suas ações e
+                    objetivos.</p>
+
+            </div>
+
+        </div>
+        <div class="grupoFormulários">
+            <div class="formulários">
+                <form action="">
+                    <fieldset>
+                        <legend>Seja um Doador</legend>
+                        <br>
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <!-- Placeholder: no lugar de um exemplo genérico como "fulano da silva" colocamos um adjetivo que transparece a intenção
+                            do doador como "benfeitor da silva" #uxwriting -->
+                            <input id="nome" type="text" placeholder="ex.: Benfeitor da Silva" required autofocus>
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input id="email" type="email" placeholder="ex.: benfeitor@email.com" required>
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="datnasc">Data de Nascimento:</label>
+                            <input id="datnasc" type="date" max="2003-01-01" required>
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="telefone">Telefone:</label>
+                            <input id="telefone" type="tel" placeholder="(00) 00000-0000" pattern="[0-9]{10,}"
+                                title="Telefone com código de área" required>
+                        </p>
+                        <hr>
+                        <!-- Microcopy: texto curto dentro do botão chamado de "Call to Action", que direciona o usuário a realiar uma ação #uxwriting -->
+                        <p class="centralizar">
+                            <input class="botão" type="submit" value="Quero Contribuir">
+                        </p>
+                    </fieldset>
+                </form>
+
+            </div>
+            <div class="caixaformulário">
+                <form action="">
+                    <fieldset>
+                        <legend>Seja Voluntário</legend>
+                        <p class="secaoFormulario">Dados pessoais</p>
+                        <p>
+                            <label for="nome2">Nome:</label>
+                            <!-- Placeholder: no lugar de um exemplo genérico como "fulano da silva" colocamos um adjetivo que transparece a intenção
+                            do doador como "solidário da silva" #uxwriting -->
+                            <input id="nome2" type="text" placeholder="ex.: Solidário da Silva" required>
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="email2">E-mail:</label>
+                            <input id="email2" type="email" placeholder="ex.: solidário@email.com" required>
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="datnasc2">Data de Nascimento:</label>
+                            <input id="datnasc2" type="date" max="2003-01-01" required>
+                        </p>
+                        <hr>
+
+                        <p class="secaoFormulario">Informações do voluntariado</p>
+                        <p>
+                            <label for="horas">Tempo disponível (horas/mês):</label>
+                            <input id="horas" type="number" min="0" max="248" minlength="1" maxlength="3" required>
+                        </p>
+                        <hr>
+                        <p>Dias da semana disponíveis:</p>
+                        <div class="flexbox">
+                            <div>
+                                <p class="blocoDias">
+                                    <label for="segunda">Segunda-feira</label>
+                                    <input type="checkbox" id="segunda">
+                                    <br>
+                                    <label for="terca">Terça-feira</label>
+                                    <input type="checkbox" id="terca">
+                                    <br>
+                                    <label for="quarta">Quarta-feira</label>
+                                    <input type="checkbox" id="quarta">
+                                    <br>
+                                    <label for="quinta">Quinta-feira</label>
+                                    <input type="checkbox" id="quinta">
+                                    <br>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="blocoDias">
+                                    <label for="sexta">Sexta-feira</label>
+                                    <input type="checkbox" id="sexta">
+                                    <br>
+                                    <label for="sabado">Sábado</label>
+                                    <input type="checkbox" id="sabado">
+                                    <br>
+                                    <label for="domingo">Domingo</label>
+                                    <input type="checkbox" id="domingo">
+                                    <br>
+                                    <label for="todos">Todos os dias</label>
+                                    <input type="checkbox" id="todos">
+                                </p>
+
+                            </div>
+                        </div>
+                        <hr>
+                        <p>
+                            <label for="servicos">Serviços que pode realizar:</label>
+                        </p>
+                        <p class="centralizar">
+                            <textarea id="servicos" maxlength="1000" cols="36" rows="6" required></textarea>
+                        </p>
+                        <!-- Microcopy: texto curto dentro do botão chamado de "Call to Action", que direciona o usuário a realiar uma ação #uxwriting -->
+                        <p class="centralizar">
+                            <input class="botão" type="submit" value="Quero Ajudar">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr class="divisaoPageFooter">
+</body>
+
+</html>
