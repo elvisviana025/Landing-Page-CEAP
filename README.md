@@ -14,11 +14,11 @@ O projeto foi feito em parceria com a ONG CEAP - Centro Educacional Assistencial
 
 ## 🎨 Design
 ### Paleta de cores:
-* ![#5a509d](https://via.placeholder.com/15/5a509d/000000?text=+) `#5a509d` azul
-* ![#f19500](https://via.placeholder.com/15/f19500/000000?text=+) `#f19500` laranja
-* ![#7eb928](https://via.placeholder.com/15/7eb928/000000?text=+) `#7eb928` verde
-* ![#03afe6](https://via.placeholder.com/15/03afe6/000000?text=+) `#03afe6` azul claro
 
+- ![#5a509d](https://via.placeholder.com/15/5a509d/5a509d.png) `#5a509d` azul
+- ![#f19500](https://via.placeholder.com/15/f19500/f19500.png) `#f19500` laranja
+- ![#7eb928](https://via.placeholder.com/15/7eb928/7eb928.png) `#7eb928` verde
+- ![#03afe6](https://via.placeholder.com/15/03afe6/03afe6.png) `#03afe6` azul claro
 
 ### Fonte:
 * 'Lato'
